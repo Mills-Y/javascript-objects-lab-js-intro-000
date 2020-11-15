@@ -8,6 +8,6 @@ function updateObjectWithKeyAndValue (object, key, value) {
 }
 
 function updateObjectWithKeyAndValue (object, key, value) {
-  Object.entries({ key: 1, key2: 2 })
-  return Object
+  object.key = "value"
+  console.log(object)
 }
