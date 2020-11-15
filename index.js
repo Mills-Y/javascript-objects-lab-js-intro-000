@@ -8,6 +8,6 @@ function updateObjectWithKeyAndValue (object, key, value) {
 }
 
 function updateObjectWithKeyAndValue (object, key, value) {
-  Object.entries({ one: 1, two: 2 })
+  Object.entries({ key: 1, key: 2 })
   return object
 }
