@@ -9,5 +9,5 @@ function updateObjectWithKeyAndValue (object, key, value) {
 
 function updateObjectWithKeyAndValue (object, key, value) {
   Object.entries({ key: 1, key: 2 })
-  return object
+  return Object.entries
 }
